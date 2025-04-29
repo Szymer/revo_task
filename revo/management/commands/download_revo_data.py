@@ -1,6 +1,7 @@
 import os
 from django.core.management.base import BaseCommand
 from  api_requester.api_call.api_call import ApiRequester
+from rest_framework.exceptions import APIException
 
 
 class Command(BaseCommand):
